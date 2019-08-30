@@ -7,3 +7,41 @@ def afunction():
 
 afunction()
 print(z)
+
+
+
+#STRING BASIC FOR LEARNER
+var='DbsOm in JaYnAgar'
+str='e'
+print (var.count(str))
+
+#split function
+var="This is the python program"
+print(var.split())
+
+print(var.split(', '))
+print(var.split(':'))
+
+print([var[i:i+2] for i in range(0, len(var), 2)])
+
+#pack and unpack tuple
+a = ("BSAITM College", 5000, "Engineering")
+(college, student, type_ofcollege) = a
+print(college)
+print(student)
+print(type_ofcollege)
+
+#create dic
+Dict ={1: 'Hello',2: 'for', 3:'Hello'}
+print(Dict)
+print(dict[1])
+
+#if condition
+i = 20;
+if (i<15):
+    print("i is smaller than 15")
+    print("i'm in if Block")
+else:
+    print("i is greater than 15")
+    print("i'm in else Block")
+print("i'm not in if and not in else Block")
