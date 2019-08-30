@@ -1,1 +1,9 @@
 
+z = 10
+
+def afunction():
+    global z
+    print(z)
+
+afunction()
+print(z)
